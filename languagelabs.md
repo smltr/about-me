@@ -91,4 +91,4 @@
   - Experience with taking risks
   - A understanding of trying -> failing -> getting back up
 
-Next, summary.md
+Next, [summary.md](summary.md)

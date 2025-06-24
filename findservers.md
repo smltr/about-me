@@ -124,4 +124,4 @@
       - makeshift scrolling solution: allowed me to use and test app now
       - Up and running with no front end build steps
 
-Next, deep dive into LanguageLabs -> languagelabs.md
+Next, deep dive into LanguageLabs -> [languagelabs.md](languagelabs.md)

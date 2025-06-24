@@ -31,4 +31,4 @@
     - Understanding business impact of technical decisions
     - Always thinking from the user's perspective
 
-Next, deep dive into my time at SheetRocks -> sheetrocks.md
+Next, deep dive into my time at SheetRocks -> [sheetrocks.md](sheetrocks.md)

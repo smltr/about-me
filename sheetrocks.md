@@ -33,7 +33,7 @@
       - Parsing formulas in real-time, had to ensure frontend JS logic matched backend Go logic for references (A1:A5)
       - Ensuring real-time performance using selective rendering
 
-    Picture -> pics/range-selection.png
+    Picture -> ![range-selection](pics/range-selection.png)
 
   pseudocode:
 
@@ -129,7 +129,7 @@
       - Recalculation chain
       - Front end parsing (don't highlight cells from this sheet)
 
-    Picture -> pics/cross-sheet-reference.png
+    Picture -> ![cross-sheet-reference](pics/cross-sheet-reference.png)
 
   **3. Macros & Automations System**
     - **Problem:** Programmable spreadsheet actions and scheduled tasks
@@ -145,7 +145,7 @@
       - Injecting spreadsheet data API to JavaScript runtime
       - Scheduling and testing automations run as expected
 
-    Picture -> pics/automation-editor.png
+    Picture -> ![automation-editor](pics/automation-editor.png)
 
   **4. Data Sorting Algorithm**
     - **Problem:** Sort spreadsheet data by columns (my first major feature)
@@ -157,7 +157,7 @@
       - Handling different data types
       - Sorting by multiple columns
 
-    Picture -> pics/sort.png
+    Picture -> ![sort](pics/sort.png)
 
   **5. Cell Merging**
     - **Problem:** Users need to merge cells for formatting/layout
@@ -167,7 +167,7 @@
       - Formula calculation adjustments
     - **Technical challenges:** Representing merged cells in both frontend state and backend storage
 
-    Picture -> pics/merge.png
+    Picture -> ![merge.png](pics/merge.png)
 
   **6. Dropdowns/Data validation:**
     - **Problem:** Data validation via dropdowns
@@ -178,7 +178,7 @@
       - rendering dropdown in correct position in relation to parent cell
       - data integrity
 
-    Picture -> pics/dropdowns.png
+    Picture -> ![dropdowns.png](pics/dropdowns.png)
 
   **7. Order of operations:**
     - **Problem:** Ensure math ops in formulas were calculated in expected order
@@ -187,7 +187,7 @@
       - Performed crawl on formula parse so that later calculations wouldn't be affected
     - **Technical challenges:** It took me a while to grok how the formula parser and resulting node tree worked
 
-    Picture -> pics/order-of-ops.png
+    Picture -> ![order-of-ops.png](pics/order-of-ops.png)
 
     Diagram:
 
@@ -270,4 +270,4 @@
   - Wore many hats
   - 2 years of hands-on experience
 
-Next, deep dive on FindServers.net -> findservers.md
+Next, deep dive on FindServers.net -> [findservers.md](findservers.md)

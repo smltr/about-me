@@ -28,4 +28,4 @@ This repo serves as a general 'about me' in relation to my career and experience
       - Self-funded exploration into AI agents and meta learning
       - Mainly prototyping, whiteboarding/sketching concepts
 
-Next, see an overview of my projects -> overview.md
+Next, see an overview of my projects -> [overview.md](overview.md)
