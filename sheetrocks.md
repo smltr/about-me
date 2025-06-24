@@ -3,35 +3,35 @@
 ## My Role at SheetRocks (2021-2023)
 
   **Context:**
-    - Founding engineer & first hire at seed-stage startup
-    - Web-based spreadsheet app to compete with Google Sheets & Excel
-    - Worked directly with technical founder
-    - Worked on every area of project
+  - Founding engineer & first hire at seed-stage startup
+  - Web-based spreadsheet app to compete with Google Sheets & Excel
+  - Worked directly with technical founder
+  - Worked on every area of project
 
   **Tech Stack:**
-    - Frontend: React, TypeScript, Jest, SCSS
-    - Backend: Go REST API & Calculation engine, MongoDB for metadata, Redis for spreadsheet data
-    - Infra: AWS EC2, S3, blue-green deployments
-    - GitHub, Docker
+  - Frontend: React, TypeScript, Jest, SCSS
+  - Backend: Go REST API & Calculation engine, MongoDB for metadata, Redis for spreadsheet data
+  - Infra: AWS EC2, S3, blue-green deployments
+  - GitHub, Docker
 
   **My Responsibilities:**
-    - Own feature dev end-to-end: design → implementation → testing → deployment
-    - Big fixes, updates
-    - Manage deployment pipeline and production releases
-    - Provide on-call support
+  - Own feature dev end-to-end: design → implementation → testing → deployment
+  - Big fixes, updates
+  - Manage deployment pipeline and production releases
+  - Provide on-call support
 
 ## Examples of Major Features I Owned
 
   **1. Formula Range Selection**
-    - **Problem:** Users typing formulas need visual way to select cell ranges
-    - `=SUM(` -> user clicks on cell A1 -> `=SUM(A1`
-    - **Solution:**
-      - Click-and-drag to visually select ranges, auto-populating formula text
-      - Real-time highlighting of cells as users type range references
-      - Complex state management between formula editor and spreadsheet grid
-    - **Technical challenges:**
-      - Parsing formulas in real-time, had to ensure frontend JS logic matched backend Go logic for references (A1:A5)
-      - Ensuring real-time performance using selective rendering
+  - **Problem:** Users typing formulas need visual way to select cell ranges
+  - `=SUM(` -> user clicks on cell A1 -> `=SUM(A1`
+  - **Solution:**
+    - Click-and-drag to visually select ranges, auto-populating formula text
+    - Real-time highlighting of cells as users type range references
+    - Complex state management between formula editor and spreadsheet grid
+  - **Technical challenges:**
+    - Parsing formulas in real-time, had to ensure frontend JS logic matched backend Go logic for references (A1:A5)
+    - Ensuring real-time performance using selective rendering
 
   [see it](pics/range-selection.png)
 
@@ -121,71 +121,71 @@
   ```
 
   **2. Cross-Sheet References**
-    - **Problem:** Users need to reference data from other sheets in workbook (like `=Sheet2!A1:B5`)
-    - **Solution:**
-      - Extended formula parsing to handle sheet references
-      - Backend API changes to resolve cross-sheet dependencies
-    - **Technical challenges:**
-      - Recalculation chain
-      - Front end parsing (don't highlight cells from this sheet)
+  - **Problem:** Users need to reference data from other sheets in workbook (like `=Sheet2!A1:B5`)
+  - **Solution:**
+    - Extended formula parsing to handle sheet references
+    - Backend API changes to resolve cross-sheet dependencies
+  - **Technical challenges:**
+    - Recalculation chain
+    - Front end parsing (don't highlight cells from this sheet)
 
   [see it](pics/cross-sheet-reference.png)
 
   **3. Macros & Automations System**
-    - **Problem:** Programmable spreadsheet actions and scheduled tasks
-    - **Solution:**
-      - JavaScript execution via Docker
-      - Container images saved for period of time for reuse
-      - Macro recording: capture user actions → generate automation scripts
-      - Visual code editor using Monaco
-      - Scheduling system for automated runs
-    - **Technical challenges:**
-      - Security isolation with Docker
-      - Determining which UI state to capture for macro recording
-      - Injecting spreadsheet data API to JavaScript runtime
-      - Scheduling and testing automations run as expected
+  - **Problem:** Programmable spreadsheet actions and scheduled tasks
+  - **Solution:**
+    - JavaScript execution via Docker
+    - Container images saved for period of time for reuse
+    - Macro recording: capture user actions → generate automation scripts
+    - Visual code editor using Monaco
+    - Scheduling system for automated runs
+  - **Technical challenges:**
+    - Security isolation with Docker
+    - Determining which UI state to capture for macro recording
+    - Injecting spreadsheet data API to JavaScript runtime
+    - Scheduling and testing automations run as expected
 
   [see it](pics/automation-editor.png)
 
   **4. Data Sorting Algorithm**
-    - **Problem:** Sort spreadsheet data by columns (my first major feature)
-    - **Solution:**
-      - Research on Google Sheets sorting behavior
-      - Backend sorting algorithm handling mixed data types
-      - Frontend UI for sort configuration
-    - **Technical challenges:**
-      - Handling different data types
-      - Sorting by multiple columns
+  - **Problem:** Sort spreadsheet data by columns (my first major feature)
+  - **Solution:**
+    - Research on Google Sheets sorting behavior
+    - Backend sorting algorithm handling mixed data types
+    - Frontend UI for sort configuration
+  - **Technical challenges:**
+    - Handling different data types
+    - Sorting by multiple columns
 
   [see it](pics/sort.png)
 
   **5. Cell Merging**
-    - **Problem:** Users need to merge cells for formatting/layout
-    - **Solution:**
-      - Data model changes for merged cell representation
-      - Frontend rendering logic for merged cells
-      - Formula calculation adjustments
-    - **Technical challenges:** Representing merged cells in both frontend state and backend storage
+  - **Problem:** Users need to merge cells for formatting/layout
+  - **Solution:**
+    - Data model changes for merged cell representation
+    - Frontend rendering logic for merged cells
+    - Formula calculation adjustments
+  - **Technical challenges:** Representing merged cells in both frontend state and backend storage
 
   [see it](pics/merge.png)
 
   **6. Dropdowns/Data validation:**
-    - **Problem:** Data validation via dropdowns
-    - **Solution:**
-      - Formula calculation adjustments with new parameter representing validations on backend
-      - Added visual element to select an item from a dropdown
-    - **Technical challenges:**
-      - rendering dropdown in correct position in relation to parent cell
-      - data integrity
+  - **Problem:** Data validation via dropdowns
+  - **Solution:**
+    - Formula calculation adjustments with new parameter representing validations on backend
+    - Added visual element to select an item from a dropdown
+  - **Technical challenges:**
+    - rendering dropdown in correct position in relation to parent cell
+    - data integrity
 
   [see it](pics/dropdowns.png)
 
   **7. Order of operations:**
-    - **Problem:** Ensure math ops in formulas were calculated in expected order
-    - **Solution:**
-      - Crawled node tree for formula and reorganized
-      - Performed crawl on formula parse so that later calculations wouldn't be affected
-    - **Technical challenges:** It took me a while to grok how the formula parser and resulting node tree worked
+  - **Problem:** Ensure math ops in formulas were calculated in expected order
+  - **Solution:**
+    - Crawled node tree for formula and reorganized
+    - Performed crawl on formula parse so that later calculations wouldn't be affected
+  - **Technical challenges:** It took me a while to grok how the formula parser and resulting node tree worked
 
   [see it](pics/order-of-ops.png)
 

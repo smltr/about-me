@@ -11,21 +11,21 @@ This repo serves as a general 'about me' in relation to my career and experience
 ## My Path to Tech
 
   **Sales/Telecom -> Engineering:**
-    - Working many years in various sales and other misc roles
-    - Decided to bet on myself, left my job and pursued a remote dev role while honing coding skills and doing small contract roles
-    - Self-taught in programming
-      - 2018 `Python` ->
-          2019 `JavaScript & web` ->
-            2020 `Go & SPA frameworks` ->
-              Always exploring: `Lisp, Elixir, LLMs..`
+  - Working many years in various sales and other misc roles
+  - Decided to bet on myself, left my job and pursued a remote dev role while honing coding skills and doing small contract roles
+  - Self-taught in programming
+    - 2018 `Python` ->
+        2019 `JavaScript & web` ->
+          2020 `Go & SPA frameworks` ->
+            Always exploring: `Lisp, Elixir, LLMs..`
 
   **Startup experience:**
-    SheetRocks
-      - Joined as founding engineer & first hire at seed-stage startup building a web based, high-performance spreadsheet application
-      - Worked alongside technical founder
-      - Built out React frontend and Go backend
-    LanguageLabs
-      - Self-funded exploration into AI agents and meta learning
-      - Mainly prototyping, whiteboarding/sketching concepts
+  SheetRocks
+    - Joined as founding engineer & first hire at seed-stage startup building a web based, high-performance spreadsheet application
+    - Worked alongside technical founder
+    - Built out React frontend and Go backend
+  LanguageLabs
+    - Self-funded exploration into AI agents and meta learning
+    - Mainly prototyping, whiteboarding/sketching concepts
 
 Next, see an overview of my projects -> [overview.md](overview.md)
