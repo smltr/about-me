@@ -1,4 +1,4 @@
-# 2.md - Overview of Projects Presented
+# Overview of Projects Presented
 
 ## The Three Projects I'll Walk Through
 
