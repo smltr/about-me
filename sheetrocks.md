@@ -1,4 +1,4 @@
-# 2a.md - SheetRocks Deep Dive
+# SheetRocks Deep Dive
 
 ## My Role at SheetRocks (2021-2023)
 
