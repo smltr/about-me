@@ -19,11 +19,11 @@ This repo serves as a detailed store of my experience in tech.
             Always exploring: `Lisp, Elixir, LLMs..`
 
   **Startup experience:**
-  SheetRocks
+  - SheetRocks
     - Joined as founding engineer & first hire at seed-stage startup building a web based, high-performance spreadsheet application
     - Worked alongside technical founder
     - Built out React frontend and Go backend
-  LanguageLabs
+  - LanguageLabs
     - Self-funded exploration into AI agents and meta learning
     - Mainly prototyping, whiteboarding/sketching concepts
 
