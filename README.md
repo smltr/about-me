@@ -28,6 +28,9 @@ This repo serves as a detailed store of my experience in tech.
     - Mainly prototyping, whiteboarding/sketching concepts
 
 My time at SheetRocks -> [sheetrocks.md](sheetrocks.md)
+
 FindServers.net -> [findservers.md](findservers.md)
+
 LanguageLabs -> [languagelabs.md](languagelabs.md)
+
 My approach to problem solving -> [approach.md](approach.md)
