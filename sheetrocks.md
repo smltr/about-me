@@ -262,12 +262,3 @@
   - Met with team in person on a few occasions
   - Weekly stand ups, daily communication via slack/video chat
 
-## Summary
-
-  - Seed stage, worked alongside technical founder
-  - Full stack: Go/React/TS
-  - Owned features
-  - Wore many hats
-  - 2 years of hands-on experience
-
-Next, deep dive on FindServers.net -> [findservers.md](findservers.md)
