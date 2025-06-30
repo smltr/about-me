@@ -1,4 +1,4 @@
-This repo serves as a general 'about me' in relation to my career and experience in tech. At the end of each file is the next one that should be viewed.
+This repo serves as a detailed store of my experience in tech.
 
 ## About me
 
@@ -27,4 +27,7 @@ This repo serves as a general 'about me' in relation to my career and experience
     - Self-funded exploration into AI agents and meta learning
     - Mainly prototyping, whiteboarding/sketching concepts
 
-Next, see an overview of my projects -> [overview.md](overview.md)
+My time at SheetRocks -> [sheetrocks.md](sheetrocks.md)
+FindServers.net -> [findservers.md](findservers.md)
+LanguageLabs -> [languagelabs.md](languagelabs.md)
+My approach to problem solving -> [approach.md](approach.md)
