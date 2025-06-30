@@ -1,8 +1,7 @@
-# About me
-
 This repo serves as a general 'about me' in relation to my career and experience in tech. At the end of each file is the next one that should be viewed.
 
-## Quick Personal Intro
+## About me
+
   - From Memphis, TN. Married with 2 kids.
   - Life long computer nerd
   - Started career in telecom/retail/sales, later moved to software development
