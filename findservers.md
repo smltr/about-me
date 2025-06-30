@@ -110,18 +110,4 @@
   - Better UX than existing alternatives
   - I plan to spread the word and hopefully get more people playing on community servers, can also use feedback
 
-## What This Project Demonstrates
-
-  **Entrepreneurial Thinking:**
-  - Identified and solved a real problem I experienced
-  - End-to-end product ownership
-  - Ability to follow through from concept to a working app
-
-  **Pragmatic Engineering:**
-  - Chose simple solutions over complex ones
-  - Focused on core functionality over perfect architecture
-  - Made smart trade-offs between features and maintainability
-    - makeshift scrolling solution: allowed me to use and test app now
-    - Up and running with no front end build steps
-
 Next, deep dive into LanguageLabs -> [languagelabs.md](languagelabs.md)
