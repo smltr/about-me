@@ -34,5 +34,3 @@
     - What do I not know?
   - Exercise focus as a muscle
     - Time away from distractions, reading, practicing
-
-That's it, thanks!
