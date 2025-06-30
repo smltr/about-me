@@ -1,5 +1,3 @@
-# Summary - Problem-Solving Approach & Wrap-Up
-
 ## How I Approach Technical Problems
 
   **Action or Analysis?:**
