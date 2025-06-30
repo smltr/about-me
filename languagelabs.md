@@ -81,14 +81,6 @@
   - Unique perspective on human-AI collaboration
   - A new sense of humility
   - Realized how important physical health is to my ability to focus and problem solve
-
-## What This Demonstrates about me
-
-  - Introspective
-  - Sustained focus
-  - Ability to work independently on undefined challenges
-  - A desire to push my limits
-  - Experience with taking risks
-  - A understanding of trying -> failing -> getting back up
+  - An understanding of trying -> failing -> getting back up
 
 Next, [summary.md](summary.md)
