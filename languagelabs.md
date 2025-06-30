@@ -82,5 +82,3 @@
   - A new sense of humility
   - Realized how important physical health is to my ability to focus and problem solve
   - An understanding of trying -> failing -> getting back up
-
-Next, [approach.md](approach.md)
